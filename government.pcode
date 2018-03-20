@@ -1,0 +1,45 @@
+# Public Works are infrastructure elements that are so critical
+# to the livelihoods of the citizenry that they are not subject
+# to market effects. In the local juristiction, Public Works
+# include providing clean water and a sanitary sewer system.
+# In the regional jurisdiction, public works include
+class Government
+  def buildInfrastructure()
+  def maintainInfrastructure()
+  def investigateLegalInfraction()
+  def updateLegalCode()
+  def levyTaxes()
+
+
+class LocalGovernment extends Government
+  def buildLocalRoads(extends buildInfrastructure)
+  def maintainLocalRoads(extends maintainInfrastructure)
+  def buildPublicWorks(extends buildInfrastructure)
+  def maintainPublicWorks(extends maintainInfrastructure)
+  def updateLocalOrdinances(extends updateLegalCode)
+  def investigateInfractionOfLocalOrdinance(extends investigateLegalInfraction)
+  def levyTaxes()
+  
+class RegionalGovernment extends Government
+  def buildRegionalRoads(extends buildInfrastructure)
+  def maintainRegionalRoads(extends buildInfrastructure)
+  def levyTaxes()
+  def litigateDisputes()
+  def updateRegionalLegalCode()
+  def regulateRegionalNaturalMonopolies()
+
+class NationalGovernment extends Government
+  def litigateDisputes()
+  def defendCitizenry()
+  def investigateLegalInfraction()
+  def updateLegalCode()
+  def buildNationalHighwaySystem(extends buildInfrastructure)
+  def maintainNationalHighwaySystem(extends maintainInfrastructure)
+  
+  # The maintainEquity method involves managing a level playing field,
+  # both between inter-regional, non-governmental organizations, and also
+  # between different regions within the nation. Equity is used here rather
+  # than equality as it is not always possible, or even desirable, for two
+  # similar entities to be treated exactly the same. The intent here is to
+  # maintain balance in the system and preventing power imbalances
+  def maintainEquity()
