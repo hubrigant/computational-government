@@ -13,4 +13,7 @@ The initial presumptions for the first version main branch include:
 * Changes to the laws should be made as pull requests
 * The test suite should strive towards 100% coverage
 * The definition of the freedom-maximization function, and the corresponding harm definition and balance system will be critical and contentious
-* While there is a goal to shift judicial burden from people to computers, it is expressly understood that the computational system will not be able to handle all new inputs without adjustment, and in the interim between the introduction of new input and the updating of the legal code to handle the new input, human review, likely in the form similar to existing judge/jury trials, will be necessary
+* While there is a goal to shift judicial burden from people to computers, it is expressly understood that
+  * The computational system will not be able to handle all new inputs without adjustment
+  * In the interim between the introduction of new input and the updating of the legal code to handle the new input, human review, likely in the form similar to existing judge/jury trials, will be necessary
+* Groups/organizations have rights, but not the full rights as individuals, nor are individual organizational rights necessarily on parity with whatever equivalents exist for individuals
