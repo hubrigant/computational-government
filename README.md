@@ -9,6 +9,7 @@ The initial presumptions for the first version main branch include:
 * The main constraint on individual freedom is causing harm; an individual is free to do pretty much anything as long as the individual doesn't cause harm to another individual or group of individuals, unless they are
   * Agree to receive the harm
   * Are mentally capable of understanding the impact of accepting the harm
+* Discrimination, by its very nature, causes harm to individuals and groups, and is thus antithetical to the primary goal of this system, and thus this system should aim to minimize it wherever possible
 * Laws should be instituted as computationally-recognizable code
 * Changes to the laws should be made as pull requests
 * The test suite should strive towards 100% coverage
